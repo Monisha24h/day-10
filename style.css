@@ -1,18 +1,64 @@
+body{
+	margin: 0%;
+}
+.header {
+	background: #73e690;
+	overflow: hidden;
+	text-align: center;
+}
+.hover-work {
+	background: #cff7d9;
+	padding: 4% 0;
+	text-align: center;
+}
+
 .box {
+	height: 130px;
+	width: 141px;
+	background: #0ccee7;
+	overflow: hidden;
+	position: absolute;
+	border-radius: 50%;
+}
+.box2 {
+	height: 130px;
+	width: 141px;
+	background: rgb(121, 236, 13);
+	overflow: hidden;
+	position: relative;
+	top: 43px;
+	left: 46px;
+	border-radius: 50%;
+}
+.box3 {
 	height: 130px;
 	width: 141px;
 	background: rebeccapurple;
 	overflow: hidden;
+	position: relative;
+	top: -75px;
+	left: 102px;
+	border-radius: 50%;
 }
-.box2{
-    height: 130px;
-	width: 141px;
-	background: rgb(121, 236, 13);
-	overflow: hidden;
+.box:hover+ .box2+ .box3{
+	background: rgb(255, 238, 1);
 }
-.box3{
-    height: 130px;
-	width: 141px;
-	background: rgba(215, 238, 10, 0.924);
+.text-area {
+	background: yellowgreen;
 	overflow: hidden;
+	padding: 0 0 30px 0;
+	text-align: center;
+	font: 50px;
+}
+.box-area {
+	margin-left: 40%;
+}
+.text {
+	background-color: #19c0f7;
+	width: 24%;
+	height: 300px;
+	overflow: scroll;
+	float: left;
+	margin: 0 0 0 87px;
+	text-align: justify;
 }
